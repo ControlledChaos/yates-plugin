@@ -19,7 +19,7 @@
  * @link       https://developer.wordpress.org/themes/template-files-section/page-template-files/#creating-page-templates-for-specific-post-types
  */
 
-namespace TimS_Plugin\Includes\Post_Types_Taxes;
+namespace Yates_Plugin\Includes\Post_Types_Taxes;
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {

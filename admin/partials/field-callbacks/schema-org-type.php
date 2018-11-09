@@ -9,7 +9,7 @@
  * @author     Greg Sweet <greg@ccdzine.com>
  */
 
-namespace TimS_Plugin\Admin\Partials\Field_Callbacks;
+namespace Yates_Plugin\Admin\Partials\Field_Callbacks;
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {

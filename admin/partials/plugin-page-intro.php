@@ -16,7 +16,7 @@
  * @todo       Change language here if anything relevant changes.1
  */
 
-namespace TimS_Plugin\Admin\Partials;
+namespace Yates_Plugin\Admin\Partials;
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {

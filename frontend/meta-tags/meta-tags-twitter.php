@@ -11,7 +11,7 @@
  * @link       https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/markup.html
  */
 
-namespace TimS_Plugin\Frontend\Meta_Tags;
+namespace Yates_Plugin\Frontend\Meta_Tags;
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {

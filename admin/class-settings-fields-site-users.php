@@ -9,9 +9,9 @@
  * @author     Greg Sweet <greg@ccdzine.com>
  */
 
-namespace TimS_Plugin\Admin;
+namespace Yates_Plugin\Admin;
 
-use TimS_Plugin\Admin\Partials\Field_Callbacks\Users_Callbacks as Callbacks;
+use Yates_Plugin\Admin\Partials\Field_Callbacks\Users_Callbacks as Callbacks;
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {

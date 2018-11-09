@@ -9,7 +9,7 @@
  * @author     Greg Sweet <greg@ccdzine.com>
  */
 
-namespace TimS_Plugin\Includes\Post_Types_Taxes;
+namespace Yates_Plugin\Includes\Post_Types_Taxes;
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {

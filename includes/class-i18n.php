@@ -9,7 +9,7 @@
  * @author     Greg Sweet <greg@ccdzine.com>
  */
 
-namespace TimS_Plugin\Includes;
+namespace Yates_Plugin\Includes;
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {

@@ -12,7 +12,7 @@
  * @todo       Finish converting the debug plugin to work with a setting.
  */
 
-namespace TimS_Plugin\Plugin_Admin;
+namespace Yates_Plugin\Plugin_Admin;
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {

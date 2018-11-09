@@ -14,7 +14,7 @@
  *             editor adds the option to link to the full size image.
  */
 
-namespace TimS_Plugin\Includes\Media;
+namespace Yates_Plugin\Includes\Media;
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {

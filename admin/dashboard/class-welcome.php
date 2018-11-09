@@ -9,7 +9,7 @@
  * @author     Greg Sweet <greg@ccdzine.com>
  */
 
-namespace TimS_Plugin\Admin\Dashboard;
+namespace Yates_Plugin\Admin\Dashboard;
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
