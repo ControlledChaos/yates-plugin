@@ -195,7 +195,7 @@ class Suhrstedt_Commercials_Fields {
 						[
 							'param'    => 'post_type',
 							'operator' => '==',
-							'value'    => 'yates_commercials',
+							'value'    => 'commercials',
 						],
 					],
 				],

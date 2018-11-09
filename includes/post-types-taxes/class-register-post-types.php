@@ -111,7 +111,7 @@ final class Post_Types_Register {
         ];
 
 		register_post_type(
-            'yates_features',
+            'features',
             $args
         );
 
@@ -176,7 +176,7 @@ final class Post_Types_Register {
 			]
 		];
 		register_post_type(
-            'yates_commercials',
+            'commercials',
             $args
         );
 

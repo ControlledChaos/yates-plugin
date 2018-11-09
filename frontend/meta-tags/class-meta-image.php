@@ -114,12 +114,12 @@ class Meta_Image {
 				$src  = $default_image['sizes'][$size];
 
 			// If on a single Feature page.
-			} elseif ( is_singular( 'yates_features' ) && ! empty( $feature_image ) ) {
+			} elseif ( is_singular( 'features' ) && ! empty( $feature_image ) ) {
 				$size = 'meta-image';
 				$src  = $feature_image['sizes'][$size];
 
 			// If on a single Commercial page and a thumbnail image has been selected.
-			} elseif ( is_singular( 'yates_commercials' ) && ! empty( $commercial_image ) ) {
+			} elseif ( is_singular( 'commercials' ) && ! empty( $commercial_image ) ) {
 				$size = 'meta-image';
 				$src  = $commercial_image['sizes'][$size];
 

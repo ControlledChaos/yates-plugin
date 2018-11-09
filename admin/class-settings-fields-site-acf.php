@@ -177,8 +177,8 @@ final class Settings_Fields_ACF {
 									'id' => '',
 								],
 								'post_type'         => [
-									0 => 'yates_features',
-									1 => 'yates_commercials'
+									0 => 'features',
+									1 => 'commercials'
 								],
 								'taxonomy'          => '',
 								'allow_null'        => 0,

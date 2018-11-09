@@ -288,7 +288,7 @@ class Suhrstedt_Features {
 						[
 							'param'    => 'post_type',
 							'operator' => '==',
-							'value'    => 'yates_features',
+							'value'    => 'features',
 						],
 					],
 				],

@@ -59,16 +59,16 @@ if ( $contact_page ) {
             <h4><?php _e( 'Features', 'yates' ); ?></h4>
             <div class="yates-dashboard-post-type-actions-icon features-icon"><span class="dashicons dashicons-format-video"></span></div>
             <p>
-                <a href="<?php echo admin_url( 'post-new.php?post_type=yates_features' ); ?>"><?php _e( 'Add New', 'yates' ); ?></a>
-                <a href="<?php echo admin_url( 'edit.php?post_type=yates_features' ); ?>"><?php _e( 'View List', 'yates' ); ?></a>
+                <a href="<?php echo admin_url( 'post-new.php?post_type=features' ); ?>"><?php _e( 'Add New', 'yates' ); ?></a>
+                <a href="<?php echo admin_url( 'edit.php?post_type=features' ); ?>"><?php _e( 'View List', 'yates' ); ?></a>
             </p>
         </li>
         <li>
             <h4><?php _e( 'Commercials', 'yates' ); ?></h4>
             <div class="yates-dashboard-post-type-actions-icon commercials-icon"><span class="dashicons dashicons-megaphone"></span></div>
             <p>
-                <a href="<?php echo admin_url( 'post-new.php?post_type=yates_commercials' ); ?>"><?php _e( 'Add New', 'yates' ); ?></a>
-                <a href="<?php echo admin_url( 'edit.php?post_type=yates_commercials' ); ?>"><?php _e( 'View List', 'yates' ); ?></a>
+                <a href="<?php echo admin_url( 'post-new.php?post_type=commercials' ); ?>"><?php _e( 'Add New', 'yates' ); ?></a>
+                <a href="<?php echo admin_url( 'edit.php?post_type=commercials' ); ?>"><?php _e( 'View List', 'yates' ); ?></a>
             </p>
 		</li>
 		<li>

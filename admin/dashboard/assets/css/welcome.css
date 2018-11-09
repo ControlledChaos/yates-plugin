@@ -26,17 +26,17 @@
     content: '\f161';
 }
 
-.yates-dashboard-summary li.post-count.yates_features-count a:before,
-.yates-dashboard-summary li.post-count.yates_features-count > span:before,
-#dashboard_right_now li.post-count.yates_features-count a:before,
-#dashboard_right_now li.post-count.yates_features-count > span:before {
+.yates-dashboard-summary li.post-count.features-count a:before,
+.yates-dashboard-summary li.post-count.features-count > span:before,
+#dashboard_right_now li.post-count.features-count a:before,
+#dashboard_right_now li.post-count.features-count > span:before {
     content: '\f126';
 }
 
-.yates-dashboard-summary li.post-count.yates_commercials-count a:before,
-.yates-dashboard-summary li.post-count.yates_commercials-count > span:before,
-#dashboard_right_now li.post-count.yates_commercials-count a:before,
-#dashboard_right_now li.post-count.yates_commercials-count > span:before {
+.yates-dashboard-summary li.post-count.commercials-count a:before,
+.yates-dashboard-summary li.post-count.commercials-count > span:before,
+#dashboard_right_now li.post-count.commercials-count a:before,
+#dashboard_right_now li.post-count.commercials-count > span:before {
     content: '\f488';
 }
 
