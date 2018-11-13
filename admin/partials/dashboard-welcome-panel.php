@@ -43,7 +43,7 @@ $contact_id   = $contact_page->ID; ?>
         </li>
         <li>
             <h4><?php _e( 'Television', 'yates' ); ?></h4>
-            <div class="yates-dashboard-post-type-actions-icon television-icon"><span class="dashicons dashicons-megaphone"></span></div>
+            <div class="yates-dashboard-post-type-actions-icon television-icon"><span class="dashicons dashicons-desktop"></span></div>
             <p>
                 <a href="<?php echo admin_url( 'post-new.php?post_type=television' ); ?>"><?php _e( 'Add New', 'yates' ); ?></a>
                 <a href="<?php echo admin_url( 'edit.php?post_type=television' ); ?>"><?php _e( 'View List', 'yates' ); ?></a>

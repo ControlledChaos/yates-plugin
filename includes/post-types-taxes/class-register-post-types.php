@@ -168,7 +168,7 @@ final class Post_Types_Register {
 			],
 			'query_var'           => true,
 			'menu_position'       => 5,
-			'menu_icon'           => 'dashicons-megaphone',
+			'menu_icon'           => 'dashicons-desktop',
 			'supports'            => [
 				'title',
 				'page-attributes',

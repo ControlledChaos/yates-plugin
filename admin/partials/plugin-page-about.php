@@ -86,7 +86,7 @@ $tabs = [
 
 	// Television tab.
     sprintf(
-        '<li><a href="%1s"><span class="dashicons dashicons-megaphone"></span> %2s</a></li>',
+        '<li><a href="%1s"><span class="dashicons dashicons-desktop"></span> %2s</a></li>',
         '#television',
         esc_html__( 'Television', 'yates' )
 	),
