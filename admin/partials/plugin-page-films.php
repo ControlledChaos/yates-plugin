@@ -20,10 +20,10 @@ namespace Yates_Plugin\Admin\Partials;
 if ( ! defined( 'WPINC' ) ) {
 	die;
 } ?>
-<h2><?php _e( 'Features Overview', 'yates' ); ?></h2>
+<h2><?php _e( 'Films Overview', 'yates' ); ?></h2>
 
-<p><?php _e( 'Features are any project that is not a commercial: films, television shows, internet shows. These projects are displayed to website visitors by clicking on the "Features" link in the menu, and in the project showcase if that option is used (see the Site Settings tab here).', 'yates' ); ?></p>
-<p><?php _e( 'Currently the feature projects are only viewed by the public as a collection. However a template is in place for viewing features individually, with their own URLs. Contact Greg at Controlled Chaos Design if you wish to add links from the collection of features to the individual project pages.', 'yates' ); ?></p>
+<p><?php _e( 'Films are any project that is not a commercial: films, television shows, internet shows. These projects are displayed to website visitors by clicking on the "Films" link in the menu, and in the project showcase if that option is used (see the Site Settings tab here).', 'yates' ); ?></p>
+<p><?php _e( 'Currently the feature projects are only viewed by the public as a collection. However a template is in place for viewing films individually, with their own URLs. Contact Greg at Controlled Chaos Design if you wish to add links from the collection of films to the individual project pages.', 'yates' ); ?></p>
 
 <h3><?php _e( 'Included Vendor Scripts', 'yates' ); ?></h3>
 

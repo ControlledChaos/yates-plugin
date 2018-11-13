@@ -113,13 +113,13 @@ class Meta_Image {
 				$size = 'meta-image';
 				$src  = $default_image['sizes'][$size];
 
-			// If on a single Feature page.
-			} elseif ( is_singular( 'features' ) && ! empty( $feature_image ) ) {
+			// If on a single Film page.
+			} elseif ( is_singular( 'films' ) && ! empty( $feature_image ) ) {
 				$size = 'meta-image';
 				$src  = $feature_image['sizes'][$size];
 
-			// If on a single Commercial page and a thumbnail image has been selected.
-			} elseif ( is_singular( 'commercials' ) && ! empty( $commercial_image ) ) {
+			// If on a single Television page and a thumbnail image has been selected.
+			} elseif ( is_singular( 'television' ) && ! empty( $commercial_image ) ) {
 				$size = 'meta-image';
 				$src  = $commercial_image['sizes'][$size];
 

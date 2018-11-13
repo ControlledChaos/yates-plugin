@@ -1,6 +1,6 @@
 <?php
 /**
- * Commercials post type fields.
+ * Television post type fields.
  *
  * @package WordPress
  * @subpackage yates
@@ -15,9 +15,9 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 /**
- * Commercials post type fields.
+ * Television post type fields.
  */
-class Suhrstedt_Commercials_Fields {
+class Suhrstedt_Television_Fields {
 
 	/**
 	 * Initialize the class and set its properties.
@@ -42,7 +42,7 @@ class Suhrstedt_Commercials_Fields {
 
 			acf_add_local_field_group( [
 				'key'    => 'group_5948b7338a11c-2',
-				'title'  => __( 'Commercials', 'yates' ),
+				'title'  => __( 'Television', 'yates' ),
 				'fields' => [
 					[
 						'key'               => 'field_598273006221e',
@@ -195,7 +195,7 @@ class Suhrstedt_Commercials_Fields {
 						[
 							'param'    => 'post_type',
 							'operator' => '==',
-							'value'    => 'commercials',
+							'value'    => 'television',
 						],
 					],
 				],
@@ -222,7 +222,7 @@ class Suhrstedt_Commercials_Fields {
 					14 => 'featured_image'
 				],
 				'active'                => 1,
-				'description'           => __( 'For the Commercials post type.', 'yates' ),
+				'description'           => __( 'For the Television post type.', 'yates' ),
 			] );
 
 		endif;
@@ -231,4 +231,4 @@ class Suhrstedt_Commercials_Fields {
 
 }
 
-$yates_plugin_commercials_fields = new Suhrstedt_Commercials_Fields;
+$yates_plugin_television_fields = new Suhrstedt_Television_Fields;

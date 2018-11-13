@@ -1,6 +1,6 @@
 <?php
 /**
- * Instructions page media options output.
+ * Instructions page television output.
  *
  * @package    Toby_Yates
  * @subpackage Admin\Partials
@@ -17,7 +17,7 @@ namespace Yates_Plugin\Admin\Partials;
 if ( ! defined( 'WPINC' ) ) {
 	die;
 } ?>
-<h2><?php _e( 'Commercials Overview', 'yates' ); ?></h2>
+<h2><?php _e( 'Television Overview', 'yates' ); ?></h2>
 <h3><?php _e( 'Image Sizes', 'yates' ); ?></h3>
 
 

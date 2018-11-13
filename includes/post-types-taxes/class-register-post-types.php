@@ -54,35 +54,35 @@ final class Post_Types_Register {
 		 */
 
 		$labels = [
-			'name'                  => __( 'Features', 'yates' ),
-			'singular_name'         => __( 'Feature Project', 'yates' ),
-			'menu_name'             => __( 'Features', 'yates' ),
-			'all_items'             => __( 'All Features', 'yates' ),
+			'name'                  => __( 'Films', 'yates' ),
+			'singular_name'         => __( 'Film Project', 'yates' ),
+			'menu_name'             => __( 'Films', 'yates' ),
+			'all_items'             => __( 'All Films', 'yates' ),
 			'add_new'               => __( 'Add New', 'yates' ),
-			'add_new_item'          => __( 'Add New Feature Project', 'yates' ),
+			'add_new_item'          => __( 'Add New Film Project', 'yates' ),
 			'edit_item'             => __( 'Edit Project', 'yates' ),
-			'new_item'              => __( 'New Feature Project', 'yates' ),
+			'new_item'              => __( 'New Film Project', 'yates' ),
 			'view_item'             => __( 'View Project', 'yates' ),
-			'view_items'            => __( 'View Features', 'yates' ),
-			'search_items'          => __( 'Search Features', 'yates' ),
-			'not_found'             => __( 'No Features Found', 'yates' ),
-			'not_found_in_trash'    => __( 'No Features Found in Trash', 'yates' ),
+			'view_items'            => __( 'View Films', 'yates' ),
+			'search_items'          => __( 'Search Films', 'yates' ),
+			'not_found'             => __( 'No Films Found', 'yates' ),
+			'not_found_in_trash'    => __( 'No Films Found in Trash', 'yates' ),
 			'featured_image'        => __( 'Featured image for this project', 'yates' ),
 			'set_featured_image'    => __( 'Set featured image for this project', 'yates' ),
 			'remove_featured_image' => __( 'Remove featured image for this project', 'yates' ),
 			'use_featured_image'    => __( 'Use as featured image for this project', 'yates' ),
-			'archives'              => __( 'Feature archives', 'yates' ),
+			'archives'              => __( 'Film archives', 'yates' ),
 			'insert_into_item'      => __( 'Insert into Project', 'yates' ),
 			'uploaded_to_this_item' => __( 'Uploaded to this Project', 'yates' ),
-			'filter_items_list'     => __( 'Filter Features', 'yates' ),
-			'items_list_navigation' => __( 'Features list navigation', 'yates' ),
-			'items_list'            => __( 'Features list', 'yates' ),
-			'attributes'            => __( 'Feature Attributes', 'yates' ),
+			'filter_items_list'     => __( 'Filter Films', 'yates' ),
+			'items_list_navigation' => __( 'Films list navigation', 'yates' ),
+			'items_list'            => __( 'Films list', 'yates' ),
+			'attributes'            => __( 'Film Attributes', 'yates' ),
 			'parent_item_colon'     => __( 'Parent Project', 'yates' ),
 		];
 
 		$args = [
-			'label'               => __( 'Features', 'yates' ),
+			'label'               => __( 'Films', 'yates' ),
 			'labels'              => $labels,
 			'description'         => __( '', 'yates' ),
 			'public'              => true,
@@ -97,7 +97,7 @@ final class Post_Types_Register {
 			'map_meta_cap'        => true,
 			'hierarchical'        => false,
 			'rewrite'             => [
-				'slug'       => 'features',
+				'slug'       => 'films',
 				'with_front' => true
 			],
 			'query_var'           => true,
@@ -111,44 +111,44 @@ final class Post_Types_Register {
         ];
 
 		register_post_type(
-            'features',
+            'films',
             $args
         );
 
 		/**
-		 * Post Type: Commercials.
+		 * Post Type: Television.
 		 */
 
 		$labels = [
-			'name'                  => __( 'Commercials', 'yates' ),
-			'singular_name'         => __( 'Commercial', 'yates' ),
-			'menu_name'             => __( 'Commercials', 'yates' ),
-			'all_items'             => __( 'All Commercials', 'yates' ),
+			'name'                  => __( 'Television', 'yates' ),
+			'singular_name'         => __( 'TV Show', 'yates' ),
+			'menu_name'             => __( 'Television', 'yates' ),
+			'all_items'             => __( 'All TV Shows', 'yates' ),
 			'add_new'               => __( 'Add New', 'yates' ),
-			'add_new_item'          => __( 'Add New Commercial', 'yates' ),
-			'edit_item'             => __( 'Edit Commercial', 'yates' ),
-			'new_item'              => __( 'New Commercial', 'yates' ),
-			'view_item'             => __( 'View Commercial', 'yates' ),
-			'view_items'            => __( 'View Commercials', 'yates' ),
-			'search_items'          => __( 'Search Commercials', 'yates' ),
-			'not_found'             => __( 'No Commercials Found', 'yates' ),
-			'not_found_in_trash'    => __( 'No Commercials Found in Trash', 'yates' ),
-			'featured_image'        => __( 'Featured image for this commercial', 'yates' ),
-			'set_featured_image'    => __( 'Set featured image for this commercial', 'yates' ),
-			'remove_featured_image' => __( 'Remove featured image for this commercial', 'yates' ),
-			'use_featured_image'    => __( 'Use as featured image for this commercial', 'yates' ),
-			'archives'              => __( 'Commercial archives', 'yates' ),
-			'insert_into_item'      => __( 'Insert into Commercial', 'yates' ),
-			'uploaded_to_this_item' => __( 'Uploaded to this Commercial', 'yates' ),
-			'filter_items_list'     => __( 'Filter Commercials', 'yates' ),
-			'items_list_navigation' => __( 'Commercials list navigation', 'yates' ),
-			'items_list'            => __( 'Commercials list', 'yates' ),
-			'attributes'            => __( 'Commercial Attributes', 'yates' ),
-			'parent_item_colon'     => __( 'Parent Commercial', 'yates' ),
+			'add_new_item'          => __( 'Add New TV Show', 'yates' ),
+			'edit_item'             => __( 'Edit TV Show', 'yates' ),
+			'new_item'              => __( 'New TV Show', 'yates' ),
+			'view_item'             => __( 'View TV Show', 'yates' ),
+			'view_items'            => __( 'View TV Shows', 'yates' ),
+			'search_items'          => __( 'Search TV Shows', 'yates' ),
+			'not_found'             => __( 'No Shows Found', 'yates' ),
+			'not_found_in_trash'    => __( 'No Shows Found in Trash', 'yates' ),
+			'featured_image'        => __( 'Featured image for this show', 'yates' ),
+			'set_featured_image'    => __( 'Set featured image for this show', 'yates' ),
+			'remove_featured_image' => __( 'Remove featured image for this show', 'yates' ),
+			'use_featured_image'    => __( 'Use as featured image for this show', 'yates' ),
+			'archives'              => __( 'Television archives', 'yates' ),
+			'insert_into_item'      => __( 'Insert into Show', 'yates' ),
+			'uploaded_to_this_item' => __( 'Uploaded to this Show', 'yates' ),
+			'filter_items_list'     => __( 'Filter Shows', 'yates' ),
+			'items_list_navigation' => __( 'Television list navigation', 'yates' ),
+			'items_list'            => __( 'Television list', 'yates' ),
+			'attributes'            => __( 'Show Attributes', 'yates' ),
+			'parent_item_colon'     => __( 'Parent Show', 'yates' ),
 		];
 
 		$args = [
-			'label'               => __( 'Commercials', 'yates' ),
+			'label'               => __( 'Television', 'yates' ),
 			'labels'              => $labels,
 			'description'         => __( '', 'yates' ),
 			'public'              => true,
@@ -163,7 +163,7 @@ final class Post_Types_Register {
 			'map_meta_cap'        => true,
 			'hierarchical'        => false,
 			'rewrite'             => [
-				'slug'       => 'commercials',
+				'slug'       => 'television',
 				'with_front' => true
 			],
 			'query_var'           => true,
@@ -176,7 +176,7 @@ final class Post_Types_Register {
 			]
 		];
 		register_post_type(
-            'commercials',
+            'television',
             $args
         );
 

@@ -77,18 +77,18 @@ $tabs = [
         esc_html__( 'Vimeo Videos', 'yates' )
     ),
 
-	// Features tab.
+	// Films tab.
     sprintf(
         '<li><a href="%1s"><span class="dashicons dashicons-format-video"></span> %2s</a></li>',
-        '#features',
-        esc_html__( 'Features', 'yates' )
+        '#films',
+        esc_html__( 'Films', 'yates' )
 	),
 
-	// Commercials tab.
+	// Television tab.
     sprintf(
         '<li><a href="%1s"><span class="dashicons dashicons-megaphone"></span> %2s</a></li>',
-        '#commercials',
-        esc_html__( 'Commercials', 'yates' )
+        '#television',
+        esc_html__( 'Television', 'yates' )
 	),
 
 	// Site Settings tab.
@@ -128,11 +128,11 @@ $page_tabs = apply_filters( 'yates_tabs_page_about', $tabs );
 		<div id="vimeo"><!-- Media Options content -->
 			<?php include_once YATES_PATH . 'admin/partials/plugin-page-vimeo.php'; ?>
 		</div>
-		<div id="features"><!-- Script Options content -->
-			<?php include_once YATES_PATH . 'admin/partials//plugin-page-features.php'; ?>
+		<div id="films"><!-- Script Options content -->
+			<?php include_once YATES_PATH . 'admin/partials//plugin-page-films.php'; ?>
 		</div>
-		<div id="commercials"><!-- Dev Tools content -->
-			<?php include_once YATES_PATH . 'admin/partials/plugin-page-commercials.php'; ?>
+		<div id="television"><!-- Dev Tools content -->
+			<?php include_once YATES_PATH . 'admin/partials/plugin-page-television.php'; ?>
 		</div>
 		<div id="settings"><!-- Site Settings content -->
 			<?php include_once YATES_PATH . 'admin/partials/plugin-page-site-settings.php'; ?>

@@ -17,7 +17,7 @@ if ( ! defined( 'WPINC' ) ) {
 /**
  * Film + TV post type fields.
  */
-class Suhrstedt_Features {
+class Suhrstedt_Films {
 
 	/**
 	 * Initialize the class and set its properties.
@@ -42,7 +42,7 @@ class Suhrstedt_Features {
 
 			acf_add_local_field_group( [
 				'key'    => 'group_5948b2c4ec0dd-2',
-				'title'  => __( 'Features', 'yates' ),
+				'title'  => __( 'Films', 'yates' ),
 				'fields' =>[
 					[
 						'key'               => 'field_598256325eb95',
@@ -288,7 +288,7 @@ class Suhrstedt_Features {
 						[
 							'param'    => 'post_type',
 							'operator' => '==',
-							'value'    => 'features',
+							'value'    => 'films',
 						],
 					],
 				],
@@ -315,7 +315,7 @@ class Suhrstedt_Features {
 					14 => 'featured_image'
 				],
 				'active'                => 1,
-				'description'           => __( 'For the Features post type.', 'yates' ),
+				'description'           => __( 'For the Films post type.', 'yates' ),
 			] );
 
 		endif;
@@ -324,4 +324,4 @@ class Suhrstedt_Features {
 
 }
 
-$yates_plugin_features_fields = new Suhrstedt_Features;
+$yates_plugin_films_fields = new Suhrstedt_Films;

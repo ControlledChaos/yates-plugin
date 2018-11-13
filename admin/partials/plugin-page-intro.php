@@ -37,6 +37,6 @@ if ( ! defined( 'WPINC' ) ) {
 <!-- Section heading -->
 <h3><?php _e( 'Software Updates', 'yates' ); ?></h3>
 
-<p><?php _e( 'WordPress regularly releases updated versions, typically with current security measures. These versions will be updated automatically. More major releases, such as those which add features or change the way some features work, must be installed intentionally. However, as a Controlled Chaos client these updates will be managed for you as well.', 'yates' ); ?></p>
+<p><?php _e( 'WordPress regularly releases updated versions, typically with current security measures. These versions will be updated automatically. More major releases, such as those which add films or change the way some films work, must be installed intentionally. However, as a Controlled Chaos client these updates will be managed for you as well.', 'yates' ); ?></p>
 <p><?php _e( 'Your site is quite streamlined, not loaded with the software bloat, in the form of "plugins", installed by so many developers. There are only two WordPress plugins running your site: the one written to provide the funtionality specific to your site, and a commercial plugin called Advanced Custom Fields Pro to create the forms for content management and settings.', 'yates' ); ?></p>
 <p><?php _e( 'There are also only two WordPress themes installed: the one written to provide the framework for displaying and styling your custom content, and the most recent default WordPress theme as a backup. Again, as a Controlled Chaos client these updates will be managed for you.', 'yates' ); ?></p>

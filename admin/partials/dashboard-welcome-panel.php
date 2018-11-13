@@ -35,18 +35,18 @@ $contact_id   = $contact_page->ID; ?>
     <ul class="yates-dashboard-post-type-actions">
         <li>
             <h4><?php _e( 'Film + TV', 'yates' ); ?></h4>
-            <div class="yates-dashboard-post-type-actions-icon features-icon"><span class="dashicons dashicons-format-video"></span></div>
+            <div class="yates-dashboard-post-type-actions-icon films-icon"><span class="dashicons dashicons-format-video"></span></div>
             <p>
-                <a href="<?php echo admin_url( 'post-new.php?post_type=features' ); ?>"><?php _e( 'Add New', 'yates' ); ?></a>
-                <a href="<?php echo admin_url( 'edit.php?post_type=features' ); ?>"><?php _e( 'View List', 'yates' ); ?></a>
+                <a href="<?php echo admin_url( 'post-new.php?post_type=films' ); ?>"><?php _e( 'Add New', 'yates' ); ?></a>
+                <a href="<?php echo admin_url( 'edit.php?post_type=films' ); ?>"><?php _e( 'View List', 'yates' ); ?></a>
             </p>
         </li>
         <li>
-            <h4><?php _e( 'Commercials', 'yates' ); ?></h4>
-            <div class="yates-dashboard-post-type-actions-icon commercials-icon"><span class="dashicons dashicons-megaphone"></span></div>
+            <h4><?php _e( 'Television', 'yates' ); ?></h4>
+            <div class="yates-dashboard-post-type-actions-icon television-icon"><span class="dashicons dashicons-megaphone"></span></div>
             <p>
-                <a href="<?php echo admin_url( 'post-new.php?post_type=commercials' ); ?>"><?php _e( 'Add New', 'yates' ); ?></a>
-                <a href="<?php echo admin_url( 'edit.php?post_type=commercials' ); ?>"><?php _e( 'View List', 'yates' ); ?></a>
+                <a href="<?php echo admin_url( 'post-new.php?post_type=television' ); ?>"><?php _e( 'Add New', 'yates' ); ?></a>
+                <a href="<?php echo admin_url( 'edit.php?post_type=television' ); ?>"><?php _e( 'View List', 'yates' ); ?></a>
             </p>
         </li>
         <li>

@@ -115,8 +115,8 @@ class Suhrstedt_Project_Media_Fields {
 							'id'    => '',
 						],
 						'post_type'         => [
-							0 => 'features',
-							1 => 'commercials',
+							0 => 'films',
+							1 => 'television',
 							2 => 'yates_videos',
 						],
 						'taxonomy'          => [],

@@ -90,8 +90,8 @@ class Post_Types_Taxes {
 		 * Only if ACF Pro is activated.
 		 */
 		if ( class_exists( 'acf_pro' ) ) {
-			require YATES_PATH . 'includes/post-types-taxes/fields/class-features-fields.php';
-			require YATES_PATH . 'includes/post-types-taxes/fields/class-commercials-fields.php';
+			require YATES_PATH . 'includes/post-types-taxes/fields/class-films-fields.php';
+			require YATES_PATH . 'includes/post-types-taxes/fields/class-television-fields.php';
 			require YATES_PATH . 'includes/post-types-taxes/fields/class-resume-contact-fields.php';
 			require YATES_PATH . 'includes/post-types-taxes/fields/class-contact-fields.php';
 			require YATES_PATH . 'includes/post-types-taxes/fields/class-project-media-fields.php';

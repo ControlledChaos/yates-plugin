@@ -386,7 +386,7 @@ class Admin {
 		/**
 		 * Enqueue the general backend styles.
 		 *
-		 * Included are just a few style rules for features added by this plugin.
+		 * Included are just a few style rules for films added by this plugin.
 		 *
 		 * @since 1.0.0
 		 */

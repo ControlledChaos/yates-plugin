@@ -177,8 +177,8 @@ final class Settings_Fields_ACF {
 									'id' => '',
 								],
 								'post_type'         => [
-									0 => 'features',
-									1 => 'commercials'
+									0 => 'films',
+									1 => 'television'
 								],
 								'taxonomy'          => '',
 								'allow_null'        => 0,

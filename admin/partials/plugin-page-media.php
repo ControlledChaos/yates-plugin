@@ -24,7 +24,7 @@ if ( ! defined( 'WPINC' ) ) {
 
 <h3><?php _e( 'Image Sizes & Quality', 'yates' ); ?></h3>
 
-<p><?php _e( 'When you upload an image, whether directly to the media library or through the Features and Commercials interface, WordPress will automatically crop them to default dimensions. Your website also has custom image sizes for the 16:9 HD video aspect ratio, for the screenshot images used as placeholders for the videos.', 'yates' ); ?></p>
+<p><?php _e( 'When you upload an image, whether directly to the media library or through the Films and Television interface, WordPress will automatically crop them to default dimensions. Your website also has custom image sizes for the 16:9 HD video aspect ratio, for the screenshot images used as placeholders for the videos.', 'yates' ); ?></p>
 <p><?php _e( 'There no restrictions on the size of image that you can upload to the media library but there are minimum size requirements for the video placeholder images. Naturally, this does not apply to placeholder images uploaded through Vimeo, but please read the tutorial under the Vimeo tab.', 'yates' ); ?></p>
 <p><?php _e( 'The minimum image size requirements for video placeholder images 960 pixels wide by 540 pixels high. This size is smaller than what is ideal to allow flexibility in finding images that you don\'t have to resize before uploading. In practice, try to use a minimum of 1280px X 720px for images that look good on retina screens.', 'yates' ); ?></p>
 <p><?php _e( 'Here is an example for clarity: Let\'s say you have an image that happens to be the ideal 1280px wide but it is 800px high, taller than the HD video aspect ratio. WordPress will crop that image to 720px high, as requiered for the video placeholders.', 'yates' ); ?></p>
