@@ -103,6 +103,25 @@ final class Settings_Fields_ACF {
 						'endpoint'          => 0,
 					],
 					[
+						'key'               => 'field_5bf6d7c0a8f41',
+						'label'             => __( 'Use Intro Slides', 'yates' ),
+						'name'              => 'yates_use_intro_slides',
+						'type'              => 'true_false',
+						'instructions'      => __( 'Select whether to use the slideshow on the front page. Slides will appear as background images. Select the images and sort the order of the slides by editing the front page (in the menu at left click Pages > Front Page).', 'yates' ),
+						'required'          => 0,
+						'conditional_logic' => 0,
+						'wrapper'           => [
+							'width' => '',
+							'class' => '',
+							'id'    => '',
+						],
+						'message'           => __( 'Use slides', 'yates' ),
+						'default_value'     => 0,
+						'ui'                => 1,
+						'ui_on_text'        => '',
+						'ui_off_text'       => '',
+					],
+					[
 						'key'               => 'field_5bdca15e2d2e3',
 						'label'             => __( 'Showcase Heading', 'yates' ),
 						'name'              => 'yates_showcase_heading',
@@ -213,7 +232,7 @@ final class Settings_Fields_ACF {
 					 *
 					 * @since 1.0.0
 					 */
-					
+
 					[
 						'key'               => 'field_5a0c8d7232b94',
 						'label'             => __( 'Dashboard', 'yates' ),
@@ -627,6 +646,197 @@ final class Settings_Fields_ACF {
 				'active'                => 1,
 				'description'           => '',
 			 ] );
+
+			/**
+			 * Intro slides.
+			 *
+			 * @since 1.0.0
+			 */
+
+			// Get the option to use the slides.
+			$use = get_field( 'yates_use_intro_slides', 'option' );
+
+			if ( $use ) :
+				acf_add_local_field_group( [
+					'key'    => 'group_5ba297ff1d629',
+					'title'  => __( 'Intro Slides', 'yates'),
+					'fields' => [
+						[
+							'key'               => 'field_5ba595de30ec3',
+							'label'             => __ ( 'Intro Slides', 'yates'),
+							'name'              => 'yates_intro_slides',
+							'type'              => 'repeater',
+							'instructions'      => '<p class="description">Slideshow appears to the right of the intro text. If only one image is set then it will appear as a ststic image, no animation.</p>
+		<p class="description" style="margin-top: 1em;">Images must be at least 1080 pixels wide by 1080 pixels high, however they do not need to be square. The images will be automatically cropped square or the can be manually cropped in the Media Library by selecting the image then clicking on Post Thumbnail Editor.</p>',
+							'required'          => 0,
+							'conditional_logic' => 0,
+							'wrapper'           => [
+								'width' => '',
+								'class' => '',
+								'id'    => '',
+							],
+							'collapsed'         => 'field_5ba40c3f67cce',
+							'min'               => 0,
+							'max'               => 0,
+							'layout'            => 'row',
+							'button_label'      => __ ( 'Add Slide', 'yates'),
+							'sub_fields'        => [
+								[
+									'key'               => 'field_5ba40c3f67cce',
+									'label'             => __ ( 'Intro Image', 'yates'),
+									'name'              => 'yates_intro_image',
+									'type'              => 'image',
+									'instructions'      => __ ( '', 'yates'),
+									'required'          => 0,
+									'conditional_logic' => 0,
+									'wrapper'           => [
+										'width' => '',
+										'class' => '',
+										'id'    => '',
+									],
+									'return_format'     => 'array',
+									'preview_size'      => 'thumb-large',
+									'library'           => 'all',
+									'min_width'         => 1080,
+									'min_height'        => 1080,
+									'min_size'          => '',
+									'max_width'         => '',
+									'max_height'        => '',
+									'max_size'          => '',
+									'mime_types'        => '',
+								],
+								[
+									'key'               => 'field_5bc8cd2616fec',
+									'label'             => __( 'Horizontal Alignment', 'yates'),
+									'name'              => 'yates_intro_image_horz',
+									'type'              => 'button_group',
+									'instructions'      => __ ( 'The focal point of the slide may be slightly left or right of center.', 'yates'),
+									'required'          => 0,
+									'conditional_logic' => 0,
+									'wrapper'           => [
+										'width' => '',
+										'class' => '',
+										'id'    => '',
+									],
+									'choices'           => [
+										'center' => __ ( 'Center', 'yates'),
+										'left'   => __ ( 'Left', 'yates'),
+										'right'  => __ ( 'Right', 'yates'),
+									],
+									'allow_null'        => 0,
+									'default_value'     => 'center',
+									'layout'            => 'horizontal',
+									'return_format'     => 'value',
+								],
+								[
+									'key'               => 'field_5bc8cd9a16fed',
+									'label'             => __( 'Vertical Alignment', 'yates'),
+									'name'              => 'yates_intro_image_vert',
+									'type'              => 'button_group',
+									'instructions'      => __ ( 'The focal point of the slide may be slightly above or below center.', 'yates'),
+									'required'          => 0,
+									'conditional_logic' => 0,
+									'wrapper'           => [
+										'width' => '',
+										'class' => '',
+										'id'    => '',
+									],
+									'choices'           => [
+										'center' => __ ( 'Center', 'yates'),
+										'top'    => __ ( 'Top', 'yates'),
+										'bottom' => __ ( 'Bottom', 'yates'),
+									],
+									'allow_null'        => 0,
+									'default_value'     => 'center',
+									'layout'            => 'horizontal',
+									'return_format'     => 'value',
+								],
+							],
+						],
+					],
+					'location' => [
+						[
+							[
+								'param'    => 'page_type',
+								'operator' => '==',
+								'value'    => 'front_page',
+							],
+						],
+					],
+					'menu_order'            => 0,
+					'position'              => 'normal',
+					'style'                 => 'seamless',
+					'label_placement'       => 'top',
+					'instruction_placement' => 'label',
+					'hide_on_screen'        => [
+						0 => 'the_content',
+						1 => 'discussion',
+						2 => 'comments',
+						3 => 'revisions',
+						4 => 'slug',
+						5 => 'author',
+						6 => 'format',
+						7 => 'categories',
+						8 => 'tags',
+						9 => 'send-trackbacks',
+					],
+					'active'      => 1,
+					'description' => __( 'For the front page of the website.', 'yates' ),
+				] );
+
+			else :
+				acf_add_local_field_group(array(
+					'key' => 'group_5bf6e3da3554f',
+					'title' => 'Front Page Message',
+					'fields' => array(
+						array(
+							'key' => 'field_5bf6e469929b3',
+							'label' => 'No Content to Manage',
+							'name' => '',
+							'type' => 'message',
+							'instructions' => '',
+							'required' => 0,
+							'conditional_logic' => 0,
+							'wrapper' => array(
+								'width' => '',
+								'class' => '',
+								'id' => '',
+							),
+							'message' => 'There is no text on the front page. If you would like to activate the slideshow or the project showcase on the front page then go to Site Setting in the menu at left; find the options under the Theme Options tab. Return here to manage your slideshow.',
+							'new_lines' => 'wpautop',
+							'esc_html' => 0,
+						),
+					),
+					'location' => array(
+						array(
+							array(
+								'param' => 'page_type',
+								'operator' => '==',
+								'value' => 'front_page',
+							),
+						),
+					),
+					'menu_order' => 0,
+					'position' => 'acf_after_title',
+					'style' => 'seamless',
+					'label_placement' => 'top',
+					'instruction_placement' => 'label',
+					'hide_on_screen' => array(
+						0 => 'the_content',
+						1 => 'discussion',
+						2 => 'comments',
+						3 => 'revisions',
+						4 => 'slug',
+						5 => 'author',
+						6 => 'format',
+						7 => 'categories',
+						8 => 'tags',
+						9 => 'send-trackbacks',
+					),
+					'active' => 1,
+					'description' => 'Displayed if the intro slides are not used.',
+				));
+			endif; // End use slides if option is selected.
 
 		endif;
 
