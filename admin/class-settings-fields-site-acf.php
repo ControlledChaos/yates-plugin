@@ -208,6 +208,28 @@ final class Settings_Fields_ACF {
 						],
 					],
 					[
+						'key'               => 'field_5bf6f2671d1d3',
+						'label'             => __( 'Font Style', 'yates' ),
+						'name'              => 'yates_theme_font_style',
+						'type'              => 'button_group',
+						'instructions'      => __( '', 'yates' ),
+						'required'          => 0,
+						'conditional_logic' => 0,
+						'wrapper'           => [
+							'width' => '',
+							'class' => '',
+							'id'    => '',
+						],
+						'choices'           => [
+							'sans'  => __( 'Sans-Serif', 'yates' ),
+							'serif' => __( 'Serif', 'yates' ),
+						],
+						'allow_null'        => 0,
+						'default_value'     => '',
+						'layout'            => 'horizontal',
+						'return_format'     => 'value',
+					],
+					[
 						'key'               => 'field_5bdb2fd78a66f',
 						'label'             => __( 'Dark Mode', 'yates' ),
 						'name'              => 'yates_dark_mode',
