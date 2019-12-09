@@ -149,7 +149,7 @@ class Frontend {
 	public function document_title() {
 
 		if ( is_front_page() ) {
-			$title = 'Toby Yates, ASC | Director of Photography';
+			$title = 'Toby Yates | Film & Television Editor';
 		} else {
 			$title = null;
 		}
